@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;     
+}
+
+html, body {
+    width: auto;
+    height: 100%;
+    overflow: hidden;
+    position: relative
+}
+
+body {
+    background-color: #000;
+}
+
+#container {
+    bottom: 0;
+    background-size: 276px;
+    background-repeat: repeat-y;
+    background-position: right;
+    background-position-y: 39px;
+    height: 100%;
+    background-image: url('../resources/parkingplace.png')
+}
+
+#main {
+    background-image: url('../resources/road.jpg');
+    background-repeat: repeat-x;
+    background-position-y: 142px;
+    height: 100%;
+}
+
+.parkingSpot {
+    border: 3px solid #fff;
+    width: 257px;
+    height: 100px;
+    float: right;
+}
+
+.results {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px 0;
+}
+
+.timer {
+    background-color: #fff;
+    text-align: center;
+    width: 75px;
+    padding: 10px;
+    height: 50px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.car1, .car2, .car3, .car4 {
+    width: 150px;
+    height: 75px;
+    background-size: 150px 75px;
+}
+
+.car1 {
+    background-image: url('../resources/car1.png')
+}
+
+.car2 {
+    background-image: url('../resources/car2.png')
+}
+
+.car3 {
+    background-image: url('../resources/car3.png')
+}
+
+.car4 {
+    background-image: url('../resources/car4.png')
+}
+
+.driving{
+    transition: width 1s, height 1s, background-color 1s, transform 2s;  
+}
+
+.controls {
+    background-color: #fff;
+    position: absolute;
+    padding: 5px;
+    width: 100%;
+    bottom: 0;
+}
